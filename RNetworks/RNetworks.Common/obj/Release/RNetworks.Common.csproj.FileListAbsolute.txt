@@ -1,0 +1,11 @@
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Common\bin\Release\RNetworks.Common.dll
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Common\bin\Release\RNetworks.Common.pdb
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.csprojResolveAssemblyReference.cache
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.dll
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Common\bin\Release\RNetworks.Common.dll
+C:\Dev\RNET\RNetworks\RNetworks.Common\bin\Release\RNetworks.Common.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.dll
+C:\Dev\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.csprojAssemblyReference.cache
+C:\Dev\RNET\RNetworks\RNetworks.Common\obj\Release\RNetworks.Common.csproj.CoreCompileInputs.cache

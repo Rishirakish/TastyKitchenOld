@@ -1,0 +1,74 @@
+﻿@using RNetworks.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Tasty Kitchen";
+}
+
+
+<div class="row" style="background-image: url(../MyApp1/Image/woodBackground5.jpeg); height: 650px; width: 102%">
+
+    <div class="col-md-6">
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new {ReturnUrl = ViewBag.ReturnUrl}, FormMethod.Post, new {@class = "form-horizontal", role = "form"}))
+            {
+                @Html.AntiForgeryToken()
+                @*<h4>Use a local account to log in.</h4>
+                    <hr />*@
+                @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+                <br/>
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="~/Image/logo.png" width="100px" height="100px">
+                    <h2 style="color: sandybrown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> @ViewBag.Title</b></h2>
+                </div>
+                <br/>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new {@class = "col-md-2 control-label", style = "color:sandybrown;"})
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new {@class = "form-control", placeholder = "Email or User name" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new {@class = "text-danger"})
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new {@class = "col-md-2 control-label", style = "color:sandybrown;"})
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new {@class = "form-control", placeholder = "Password" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new {@class = "text-danger"})
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe, new {style = "color:sandybrown; font-weight:700" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Log in" class="btn btn-default" style="background-color: limegreen; font-weight:700"/>
+                        <span>
+                            &nbsp;&nbsp; @Html.ActionLink("Forgot password?", "ForgotPassword")
+                        </span>
+                    </div>
+                </div>
+                @*<p>
+                        @Html.ActionLink("Register as a new user", "Register")
+                    </p>*@
+                @* Enable this once you have account confirmation enabled for password reset functionality*@
+
+            }
+        </section>
+    </div>
+    <!--<div class="col-md-4">
+    <section id="socialLoginForm">-->
+    @*<img src="~/Image/TastyKitchenCover1.jpg" width="1000" height="650" />*@
+    @*@Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })*@
+    <!--</section>
+    </div>-->
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

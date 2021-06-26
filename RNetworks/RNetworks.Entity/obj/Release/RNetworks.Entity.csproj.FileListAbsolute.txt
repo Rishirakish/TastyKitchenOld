@@ -1,0 +1,9 @@
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Entity\bin\Release\RNetworks.Entity.dll
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Entity\bin\Release\RNetworks.Entity.pdb
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Entity\obj\Release\RNetworks.Entity.dll
+C:\Dev\RNET\temp\RNET\RNetworks\RNetworks.Entity\obj\Release\RNetworks.Entity.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Entity\bin\Release\RNetworks.Entity.dll
+C:\Dev\RNET\RNetworks\RNetworks.Entity\bin\Release\RNetworks.Entity.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Entity\obj\Release\RNetworks.Entity.dll
+C:\Dev\RNET\RNetworks\RNetworks.Entity\obj\Release\RNetworks.Entity.pdb
+C:\Dev\RNET\RNetworks\RNetworks.Entity\obj\Release\RNetworks.Entity.csproj.CoreCompileInputs.cache
